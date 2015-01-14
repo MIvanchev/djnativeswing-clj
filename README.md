@@ -36,7 +36,7 @@ The latest release of djnativeswing-clj is version 0.1.0.
 </dependency>
 ```
 
-Because DJ Native Swing is not distributed through Maven you will have to have to add the artifacts of the library to your local Maven cache manually in order to use djnativeswing-clj. To do so download the latest stable version from [DJ Native Swing] (http://sourceforge.net/projects/djproject/files/DJ%20Native%20Swing/) and extract it somewhere. Open a terminal, navigate to that directory and execute (assuming you are on Windows and the latest version of DJ Native Swing is 1.0.2):
+Because DJ Native Swing is not distributed through Maven you will have to add the artifacts of the library to your local Maven cache manually in order to use djnativeswing-clj. To do so download the latest stable version from [DJ Native Swing] (http://sourceforge.net/projects/djproject/files/DJ%20Native%20Swing/) and extract it somewhere. Open a terminal, navigate to that directory and execute (assuming you are on Windows and the latest version of DJ Native Swing is 1.0.2):
 
 ```
 lein deploy file:///C:/Users/<yourusername>/.m2/repository djnativeswing/djnativeswing 1.0.2 DJNativeSwing.jar pom.xml
