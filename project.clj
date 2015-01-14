@@ -1,4 +1,4 @@
-(defproject djnativeswing-clj "0.1.0-SNAPSHOT"
+(defproject djnativeswing-clj "0.1.0"
   :description "A Seesaw compatible Clojure wrapper of DJ Native Swing. See https://github.com/MIvanchev/djnativeswing-clj, http://djproject.sourceforge.net/ns/, http://seesaw-clj.org for more info."
   :url "https://github.com/MIvanchev/djnativeswing-clj"
   :license {:name "Eclipse Public License - v 1.0"
