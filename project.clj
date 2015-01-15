@@ -6,6 +6,7 @@
             :distribution :repo
             :comments "same as Clojure"}
   :global-vars {*warn-on-reflection* true}
+  :repositories [["MIvanchev-repo" "https://github.com/MIvanchev/maven-repository/raw/master/repo"]]
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [djnativeswing/djnativeswing "1.0.2"]
                  [djnativeswing/djnativeswing-swt "1.0.2"]
