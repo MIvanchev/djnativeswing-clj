@@ -36,14 +36,7 @@ The latest release of djnativeswing-clj is version 0.1.0.
 </dependency>
 ```
 
-Because DJ Native Swing is not distributed through Maven you will have to add the artifacts of the library to your local Maven cache manually in order to use djnativeswing-clj. To do so download the latest stable version from [DJ Native Swing] (http://sourceforge.net/projects/djproject/files/DJ%20Native%20Swing/) and extract it somewhere. Open a terminal, navigate to that directory and execute (assuming you are on Windows and the latest version of DJ Native Swing is 1.0.2):
-
-```
-lein deploy file:///C:/Users/<yourusername>/.m2/repository djnativeswing/djnativeswing 1.0.2 DJNativeSwing.jar pom.xml
-lein deploy file:///C:/Users/<yourusername>/.m2/repository djnativeswing/djnativeswing-swt 1.0.2 DJNativeSwing-SWT.jar pom.xml
-```
-
-This will copy the artifacts to the repository in your user's directory as if they came through Maven. Notice that this requires a valid POM file to be in the same directory. It doesn't matter what POM you use so you can just generate a new Leiningen project with `lein new dummy`, convert the project settings to POM through `lein pom` and then copy the generated POM file.
+Because DJ Native Swing is not distributed through Maven, its JARs are kept in the **custom** repository available at https://github.com/MIvanchev/maven-repository. Please keep in mind that this is not an official repository so there are virtually no security and integrity guarantees whatsoever except my best effort to keep the users of djnativeswing-clj, satisfied.
 
 ## Usage
 
