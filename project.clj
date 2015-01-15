@@ -15,5 +15,6 @@
   :java-source-paths ["src/main/java"]
   :test-paths ["src/test/clojure"]
   :resource-paths ["src/main/resources"]
-  :profiles {:dev {:dependencies [[org.eclipse.swt.org.eclipse.swt.win32.win32.x86_64.4.3.swt/org.eclipse.swt.win32.win32.x86_64 "4.3"]]}}
+  :profiles {:dev {:repositories [["swt" "https://swt-repo.googlecode.com/svn/repo"]]
+                   :dependencies [[org.eclipse.swt/org.eclipse.swt.gtk.linux.x86_64  "4.3"]]}}
   :codox {})
