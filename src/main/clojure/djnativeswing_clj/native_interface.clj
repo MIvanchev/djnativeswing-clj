@@ -36,7 +36,7 @@
 (defn open!
   "Opens the native interface and initializes it if not already done. The native
   interface should be initialized and opened before any widgets are created and
-  used. You want djnativeswing-clj.core/open-native-interface!.
+  used. Prefer the alias djnativeswing-clj.core/open-native-interface!.
 
   See:
     (djnativeswing-clj.native-interface/initialize!)
@@ -46,7 +46,7 @@
   (NativeInterface/open))
 
 (defn close!
-  "Closes the native interface. You want
+  "Closes the native interface. Prefer the alias
   djnativeswing-clj.core/close-native-interface!."
   []
   (NativeInterface/close))

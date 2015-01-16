@@ -167,7 +167,7 @@
     :loading-progress
     :status-change
     :title-change
-    :location                  a common listener for :location-xzy events
+    :location                  a common listener for :location-xyz events
     :location-change-cancelled
     :location-changing
     :location-change
@@ -216,7 +216,7 @@
   (config* [target name] (get-option-value target name))
   (config!* [target args] (apply-options target args)))
 
-(def browser-window-options
+(def ^{:private true} browser-window-options
   (option-map
     (bean-option :title JWebBrowserWindow)
     (bean-option :size JWebBrowserWindow)

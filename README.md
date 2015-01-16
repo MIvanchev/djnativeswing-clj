@@ -1,5 +1,7 @@
 ### djnativeswing-clj
 
+[![Build Status](https://travis-ci.org/MIvanchev/djnativeswing-clj.svg?branch=master)](https://travis-ci.org/MIvanchev/djnativeswing-clj)
+
 A [Seesaw](https://github.com/daveray/seesaw) compatible Clojure wrapper of [DJ Native Swing](http://djproject.sourceforge.net/ns/), a collection of native widgets for Swing.
 
 Currently supported widgets:
@@ -36,7 +38,7 @@ The latest release of djnativeswing-clj is version 0.1.0.
 </dependency>
 ```
 
-Because DJ Native Swing is not distributed through Maven, its JARs are kept in the **custom** repository available at https://github.com/MIvanchev/maven-repository. Please keep in mind that this is not an official repository so there are virtually no security and integrity guarantees whatsoever except my best effort to keep the users of djnativeswing-clj, satisfied.
+**WARNING** Because DJ Native Swing is not distributed through Maven, its JARs are kept in the **custom** repository available at https://github.com/MIvanchev/maven-repository. Please keep in mind that this is not an official repository so there are virtually no security and integrity guarantees whatsoever except my best effort to keep the users of djnativeswing-clj, satisfied.
 
 ## Usage
 
