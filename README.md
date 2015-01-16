@@ -10,6 +10,8 @@ Currently supported widgets:
 
 If you need a specific widget, but you don't see it in the above list, contact me.
 
+[API documentation](http://mivanchev.github.io/djnativeswing-clj/)
+
 ## Introduction
 
 DJ Native Swing is a Java library of Swing widgets implementing OS native GUI components such as a web browser, Adobe Flash player, VLC player and more. DJ Native Swing relies heavily on the [Standard Widget Toolkit (SWT)](https://www.eclipse.org/swt/) to fulfil its duties. Seesaw is a highly usable Clojure wrapper of Swing. The purpose of djnativeswing-clj is to provide a Clojure wrapper of DJ Native Swing as an extension to Seesaw. Indeed this project utilizes the same internal mechanisms as Seesaw so they integrate seamlessly.
